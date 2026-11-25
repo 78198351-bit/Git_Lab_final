@@ -23,7 +23,23 @@ delta = {("q0","a"):"q1",
         ("q9","c"):"q10"}
 
 q0, F = "q0", {"q10"}
-
+#10 Cadenas Validas 
+#aaacaac
+#aabcaac
+#abaacaac
+#abbbabcaac
+#aaabcaac
+#aabbcaac
+#aaacbbaac
+#accaaacaac
+#aaacccaaacaac
+#abaaabbcbaaac
+#5 Cadenas Invalidas
+#aaacaa
+#abbbb
+#aaacbbb
+#acc
+#aaaccc
 # === Simulación ===
 def run(s):
     q, steps = q0, [q0]
